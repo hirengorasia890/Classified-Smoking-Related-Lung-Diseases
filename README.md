@@ -29,7 +29,6 @@ Images are loaded in grayscale, filtered for quality (brightness threshold < 50 
 
 SMOTE runs on the flattened training images before reshaping back to 256×256×3. This generates synthetic minority-class samples so no single class dominates training.
 
-**Note:** The dataset path is currently hardcoded to a local Windows path (`E:/mini project/datasets/lung_copy/`). Update `directory` in each script before running.
 
 ---
 
