@@ -9,9 +9,9 @@ This repository contains the code for the research paper published at **IEEE ASP
 
 ## What This Project Does
 
-Lung diseases linked to smoking — lung cancer (benign and malignant) and pneumonia — are notoriously hard to distinguish from chest X-rays alone. This project trains and compares three CNN architectures on grayscale lung X-ray images to automate that classification. A major challenge was severe class imbalance in the dataset; we handled it using SMOTE (Synthetic Minority Oversampling Technique) before training.
+Lung diseases associated with smoking, including benign lung cancer, malignant lung cancer, and pneumonia, are notoriously difficult to distinguish using chest X-ray images alone. This project trains and compares three Convolutional Neural Network (CNN) architectures to automate the classification of these conditions from grayscale lung X-ray images. A major challenge was the severe class imbalance in the dataset, which was addressed using SMOTE (Synthetic Minority Oversampling Technique) before training.
 
-Three models were tested: a custom CNN built from scratch, MobileNetV2 (transfer learning), and ResNet152 (transfer learning). All three were trained on 256×256 grayscale images converted to 3-channel RGB for compatibility with pretrained ImageNet weights.
+Three models were evaluated: a custom CNN built from scratch, MobileNetV2 using transfer learning, and ResNet152 using transfer learning. All models were trained on 256 × 256 grayscale X-ray images that were converted to 3-channel RGB format to ensure compatibility with pretrained ImageNet weights.
 
 ---
 
